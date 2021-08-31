@@ -1,0 +1,56 @@
+/* 暗色字体加粗 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #948f90;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d4d2d285;
+}
+
+.book.color-theme-2 .book-summary ul.summary li a, .book.color-theme-2 .book-summary ul.summary li span {
+  font-weight: normal;
+}
+
+.book-summary ul.summary {
+  user-select: none;
+}
+
+video {
+  width: 100% !important;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.markdown-section {
+  overflow: visible;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+  .page-toc-button {
+    display: block;
+  }
+}
+/* 代码高亮注释颜色 */
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  color: #2fd611 !important;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+  text-shadow: none !important;
+  font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace !important;
+}
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+  color: #67cdcc !important;
+  background-color: transparent !important;
+}
+
+pre[class*="language-"] {
+  border-radius: 5px;
+}
+
+
