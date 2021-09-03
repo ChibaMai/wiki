@@ -34,14 +34,14 @@ video {
 }
 
 .bg {
-  position: fixed !;
-  background-size: cover !important;
-  background-position: center !important;
+  position: fixed;
+  background-size: cover;
+  background-position: center;
   opacity: 0.15;
 }
 
 .page-view-counter {
-  margin-left: -10px;
+  /* margin-left: -10px; */
   font-size: 13px;
   vertical-align: text-bottom;
 }
@@ -49,6 +49,10 @@ video {
 .book.color-theme-1 .book-body .page-wrapper .page-inner section,
 .book.color-theme-2 .book-body .page-wrapper .page-inner section {
   background-color: transparent;
+}
+
+.book-header h1 {
+  padding: 0;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
